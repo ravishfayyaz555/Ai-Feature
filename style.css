@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Raleway-SemiBold.ttf";
+    src: url(./fonts/Raleway-SemiBold.ttf);
+}
+
+:root{
+    --mainColor:#7C4EE4;
+    --backup:#333333;
+    --my-family:"Raleway-SemiBold.ttf";
+}
+.nav-blog{
+    color: var(--mainColor);
+    text-decoration: none;
+}
+.color {
+    background-color:var(--mainColor)!important;
+}
+.about{
+    color:var(--backup)!important;
+}
+.purple{
+    background-color: var(--mainColor);
+}
+h1, p{
+    font-family: var(--my-family);
+}
