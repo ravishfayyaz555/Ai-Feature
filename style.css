@@ -29,3 +29,14 @@
 h1, p{
     font-family: var(--my-family);
 }
+.btnn:hover{
+    background-color: #7C4EE4 !important;
+    color: #333333;
+    border: black;
+}
+.btnn{
+    outline: none !important;
+    color: #7C4EE4 !important;
+    border:1px solid  #7C4EE4 !important;
+    background-color: white !important;
+}
